@@ -4,9 +4,9 @@ import logo from "../assets/data/images/logo.svg";
 import arrowDown from "../assets/data/images/icon-arrow-down.svg"
 import arrowUp from "../assets/data/images/icon-arrow-up.svg"
 import Todo from '../assets/data/images/icon-todo.svg'
-import Calendar from '../assets/data/images/icon-Calendar.svg'
-import Reminders from '../assets/data/images/icon-Reminders.svg'
-import Planning from '../assets/data/images/icon-Planning.svg'
+import Calendar from '../assets/data/images/icon-calendar.svg'
+import Reminders from '../assets/data/images/icon-reminders.svg'
+import Planning from '../assets/data/images/icon-planning.svg'
 import menu from '../assets/data/images/icon-menu.svg'
 import close from '../assets/data/images/icon-close-menu.svg'
 
