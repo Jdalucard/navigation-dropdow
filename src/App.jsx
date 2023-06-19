@@ -1,10 +1,10 @@
 import Navigation from "./components/Navigation"
-import desktop from './assets/data/intro-section-with-dropdown-navigation-main/images/image-hero-desktop.png'
-import Mobile from './assets/data/intro-section-with-dropdown-navigation-main/images/image-hero-mobile.png'
-import audiophile from './assets/data/intro-section-with-dropdown-navigation-main/images/client-audiophile.svg'
-import databiz from './assets/data/intro-section-with-dropdown-navigation-main/images/client-databiz.svg'
-import maker from './assets/data/intro-section-with-dropdown-navigation-main/images/client-maker.svg'
-import meet from './assets/data/intro-section-with-dropdown-navigation-main/images/client-meet.svg'
+import desktop from './assets/data/images/image-hero-desktop.png'
+import Mobile from './assets/data/images/image-hero-mobile.png'
+import audiophile from './assets/data/images/client-audiophile.svg'
+import databiz from './assets/data/images/client-databiz.svg'
+import maker from './assets/data/images/client-maker.svg'
+import meet from './assets/data/images/client-meet.svg'
 import './App.css'
 
 function App() {

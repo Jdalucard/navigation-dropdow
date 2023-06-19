@@ -1,14 +1,14 @@
 import useMyhook from "./Mihook.jsx"
 import styles from "./styles.module.css";
-import logo from "../assets/data//intro-section-with-dropdown-navigation-main/images/logo.svg";
-import arrowDown from "../assets/data/intro-section-with-dropdown-navigation-main/images/icon-arrow-down.svg"
-import arrowUp from "../assets/data/intro-section-with-dropdown-navigation-main/images/icon-arrow-up.svg"
-import Todo from '../assets/data/intro-section-with-dropdown-navigation-main/images/icon-todo.svg'
-import Calendar from '../assets/data/intro-section-with-dropdown-navigation-main/images/icon-Calendar.svg'
-import Reminders from '../assets/data/intro-section-with-dropdown-navigation-main/images/icon-Reminders.svg'
-import Planning from '../assets/data/intro-section-with-dropdown-navigation-main/images/icon-Planning.svg'
-import menu from '../assets/data/intro-section-with-dropdown-navigation-main/images/icon-menu.svg'
-import close from '../assets/data/intro-section-with-dropdown-navigation-main/images/icon-close-menu.svg'
+import logo from "../assets/data/images/logo.svg";
+import arrowDown from "../assets/data/images/icon-arrow-down.svg"
+import arrowUp from "../assets/data/images/icon-arrow-up.svg"
+import Todo from '../assets/data/images/icon-todo.svg'
+import Calendar from '../assets/data/images/icon-Calendar.svg'
+import Reminders from '../assets/data/images/icon-Reminders.svg'
+import Planning from '../assets/data/images/icon-Planning.svg'
+import menu from '../assets/data/images/icon-menu.svg'
+import close from '../assets/data/images/icon-close-menu.svg'
 
 
 const Navigation = () => {
