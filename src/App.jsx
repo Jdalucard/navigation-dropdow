@@ -18,7 +18,6 @@ function App() {
             <div className="container-body">
               <div className="title">
                 <h1 >Make remote work </h1>
-
               </div>
               <p>  Get your team in sync, no matter your location. Streamline processes,
                 create team rituals, and watch productivity soar.
