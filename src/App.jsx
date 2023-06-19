@@ -38,8 +38,6 @@ function App() {
             <source srcSet={Mobile} media="(max-width: 768px)" />
             <img src={desktop} alt="imagen" />
           </picture>
-
-
         </section >
       </main >
 
