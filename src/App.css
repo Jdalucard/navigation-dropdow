@@ -1,0 +1,150 @@
+:root {
+  --AlmostWhite: hsl(0, 0%, 98%);
+  --MediumGray: hsl(0, 0%, 41%);
+  --AlmostBlack: hsl(0, 0%, 8%);
+}
+
+.containerApi {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  padding: 1.2rem;
+
+}
+
+article {
+  display: grid;
+  height: 100%;
+
+}
+
+article p {
+  opacity: 0.6;
+  font-size: 1rem;
+}
+
+.container-body {
+  padding: 0rem 12rem;
+  display: grid;
+  width: 100%;
+  gap: 1rem;
+  margin-top: 8rem;
+}
+
+.title {
+  word-wrap: break-word;
+  font-size: 3.5rem;
+  line-height: 1;
+}
+
+
+picture {
+  width: 100%;
+  margin-left: 7rem;
+
+
+}
+
+picture img {
+  width: 61%
+}
+
+
+
+
+
+
+.Button-Home {
+  background: var(--AlmostBlack);
+  color: var(--AlmostWhite);
+  border-radius: 0.5rem;
+  opacity: 1;
+  padding: 0.7rem;
+  border: solid 1px var(--AlmostBlack);
+}
+
+.Button-Home:hover {
+  background: var(--AlmostWhite);
+  color: var(--AlmostBlack);
+  transition: all 0.5s;
+}
+
+.container-fotter {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+
+@media (max-width: 1440px) {
+  .container-body {
+    padding: 0rem 8rem;
+  }
+
+  .title {
+    font-size: 3.4rem;
+  }
+}
+
+@media (max-width: 768px) {
+
+  article p {
+    opacity: 1;
+  }
+
+  picture {
+    margin-left: 0;
+  }
+
+  picture img {
+    width: 100%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+    min-height: 100%;
+    gap: 1rem;
+    padding: 0.1rem;
+  }
+
+  .container-body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1.5rem;
+    text-align: center;
+    margin: 0.1rem;
+    padding: 0.1rem;
+  }
+
+  .Button-Home {
+    padding: 0.6rem;
+    border-radius: 0.7rem;
+  }
+
+  .title {
+    width: 100%;
+    font-size: 1.8rem;
+  }
+
+  .container-fotter {
+    margin-top: 2ch;
+    gap: 1.5rem;
+    height: 100%;
+    padding: 0.1rem;
+  }
+
+
+
+}
